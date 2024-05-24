@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.cdnfonts.com/css/digital-display" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid whole_background container_height">
+        <div class="row whole_background container_height">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                <div class="sub_col m-2 d-flex justify-content-center align-items-center flex-column p-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="fw-bold text-uppercase mb-5 text-primary-emphasis">Tasheeb Counter</h2>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <input type="text" readonly id="input_data">
+                    </div>
+                    <div class="buttons mt-5">
+                        <button type="button" class="btn btn-outline-success font-monospace fs-5 fw-bold" id="all_btn1">+</button>
+                        <button type="button" class="btn btn-outline-dark mx-2 font-monospace fs-5 fw-bold" id="all_btn2">Reset</button>
+                        <button type="button" class="btn btn-outline-danger font-monospace fs-5 fw-bold" id="all_btn3">-</button>
+                    </div>
+                    <div class="on_of_button mt-3">
+                        <div class="inner_on_of_button bg-dark ">
+                            <div class="sub_inner_on_button" id="sub_inner_btn">
+                                ON
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

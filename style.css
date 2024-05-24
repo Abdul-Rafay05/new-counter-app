@@ -1,0 +1,67 @@
+                @font-face {
+                    font-family: digital;
+                    src: url(DigitalDismay-VAKw.ttf);
+                }
+                
+                * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                #input_data {
+                    padding: 29px 0;
+                    font-size: 4rem;
+                    font-weight: 600;
+                    text-align: center;
+                    width: 15rem;
+                    border: 10px double #151C62;
+                    border-radius: 20px;
+                    font-family: digital;
+                }
+                
+                .container_height {
+                    height: calc(100vh - 2px);
+                    width: 100%;
+                    /* background-image: url(); */
+                }
+                
+                .whole_background {
+                    background: url("https://png.pngtree.com/thumb_back/fh260/background/20240408/pngtree-holy-quran-and-tasbih-prayer-beads-in-a-reverent-image_15708923.jpg") no-repeat center center;
+                    background-size: cover;
+                }
+                
+                .inner_on_of_button {
+                    width: 80px;
+                    height: 32px;
+                    border-radius: 50px;
+                    display: flex;
+                    align-items: center;
+                    padding: 2px;
+                    border: 2px solid black;
+                    /* transform: translateX(); */
+                }
+                
+                .sub_inner_on_button {
+                    width: 40px;
+                    height: 25px;
+                    border-radius: 50px;
+                    background-color: aliceblue;
+                    cursor: pointer;
+                    transition: all 0.2s linear;
+                    font-weight: 600;
+                    text-align: center;
+                    background-color: green;
+                    color: white;
+                }
+                
+                .sub_col {
+                    background-color: whitesmoke;
+                    opacity: 0.95;
+                    border-radius: 10px;
+                    border: 10px double #000435;
+                }
